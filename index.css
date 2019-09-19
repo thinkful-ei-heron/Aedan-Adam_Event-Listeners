@@ -23,10 +23,10 @@
     height: 60px;
   }
   
-  a.thumbnail:hover {
+  .thumbnail:hover {
     box-shadow: 5px 5px 5px gray;
   }
   
-  .thumbnail img {
+  /* .thumbnail  {
     max-height: 100%;
-  }
+  } */

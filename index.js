@@ -1,6 +1,6 @@
 'use strict';
-$('.thumbnail').on('click',  e => {
-    let targetCat = $(e.currentTarget).find('img');
+$('.thumbnail').on('click', e => {
+    let targetCat = $(e.currentTarget);
     let untargetCat = $('.js-cat');
 
     untargetCat.attr('aria-pressed', false);
@@ -11,6 +11,7 @@ $('.thumbnail').on('click',  e => {
 
 
     console.log(untargetCat);
+    console.log(targetCat);
     console.log($(e.target).attr('src'));
-  });
+});
   
